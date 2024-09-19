@@ -1,0 +1,16 @@
+.nav-mobile-links-container{
+    display: none;
+}
+.icon{
+    display: none;
+    font-size: 30px;
+}
+@media (max-width: 1024px) {
+    .nav-mobile-links-container{
+        display: block;
+    }
+    .icon{
+        display: block;
+    }
+    
+}

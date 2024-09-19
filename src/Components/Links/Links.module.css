@@ -1,0 +1,25 @@
+.nav-links-container{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap:1rem;
+}
+
+.nav-links-container li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+}
+
+.nav-links-container li a.active{
+    background-color: #fff;
+    color: black;
+}
+
+@media (max-width: 1024px) {
+    .nav-links-container{
+        display: none;
+    }
+    
+}
